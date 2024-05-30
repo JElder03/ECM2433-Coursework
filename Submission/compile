@@ -1,0 +1,5 @@
+gcc -ansi -I./ -c readBytes.c -o readBytes.o
+gcc -ansi -I./ -c msString.c -o msString.o
+gcc -ansi -I./ -c coursework.c -o coursework.o
+gcc -ansi -I./ -c inputOutput.c -o inputOutput.o
+gcc coursework.o msString.o readBytes.o inputOutput.o -o coursework
